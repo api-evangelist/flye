@@ -1,7 +1,24 @@
 aid: flye
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flye.png
 name: Flye
-description: Flye is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Flye was a San Francisco social-audience and brand-marketing analytics startup (500
+  Global / 500 Startups Demo Day Batch 19, founded 2016) that helped brands build and understand
+  their audiences from social data (an "audience fingerprint") and run targeted, personalized
+  engagement campaigns using machine learning. The company appears defunct — its original domain
+  (flye.co) has lapsed and now hosts an unrelated online-casino review/affiliate site. No developer
+  platform, API, documentation, SDK, or other technical surface exists for this provider, so there
+  is nothing for the enrichment pipeline to harvest without fabrication.
 url: https://raw.githubusercontent.com/api-evangelist/flye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Original startup appears defunct; flye.co domain lapsed and now serves an unrelated
+  online-casino affiliate site (verified 2026-07-19). No API/developer surface found.'
+x-enrichment-verdict: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketing
+- Social Media
+- Audience Analytics
+- Machine Learning
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: https://flye.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
