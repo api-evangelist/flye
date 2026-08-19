@@ -30,7 +30,7 @@ x-status: defunct
 x-status-note: 'Original startup appears defunct; flye.co domain lapsed and now serves an unrelated
   online-casino affiliate site (verified 2026-07-19). No API/developer surface found.'
 x-enrichment-verdict: no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
