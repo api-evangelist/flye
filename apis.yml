@@ -47,9 +47,9 @@ modified: '2026-07-19'
 tags:
 - Company
 - Marketing
-- Social-Media
+- Social Media
 - Audience Analytics
-- Machine-Learning
+- Machine Learning
 - Defunct
 tags_raw:
 - Company
@@ -58,6 +58,8 @@ tags_raw:
 - Audience Analytics
 - Machine Learning
 - Defunct
+- Social-Media
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
